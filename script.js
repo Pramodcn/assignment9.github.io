@@ -4,6 +4,7 @@ var datarow = document.getElementsByClassName('data-row')
 function creattable (){
     var xhttp = new XMLHttpRequest();
     xhttp.open('GET','https://5ee248c68b27f30016094891.mockapi.io/table', true)
+	// as per the guideline you are provided url not working properly hence im creating new urland uploading
     xhttp.send();
   
     xhttp.onreadystatechange = function(){
